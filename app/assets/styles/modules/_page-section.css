@@ -5,9 +5,32 @@
     @media(min-width: $medium){
      padding: 4.5rem 0;
     }
+
+    &--no-b-padding-until-medium{
+        padding-bottom: 0;
+        @media(min-width: $medium){
+            padding-bottom: 4.5rem;
+        }
+    }
+
+    &--no-b-padding-until-large{
+        padding-bottom: 0;
+        @media(min-width: $large){
+            padding-bottom: 4.5rem;
+        }
+    }
     
     &--blue{
         background-color: $mainBlue;
         color: #FFF;
+    }
+
+    &--testimonials{
+        background-color: #e0e6ef;
+        @media(min-width: $large){
+            background: url('assets/images/testimonials-bg.jpg') top center no-repeat;
+            background-size: cover;
+        }
+
     }
 }

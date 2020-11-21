@@ -9,6 +9,27 @@
         max-width: 976px;
     }
 
+    &--no-padding-until-medium{
+        padding-left: 0;
+        padding-right: 0;
+
+        @media(min-width: $medium){
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+        
+    }
+
+    &--no-padding-until-large{
+        padding-left: 0;
+        padding-right: 0;
+
+        @media(min-width: $large){
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+        
+    }
 
     &--b-margin{
         margin-bottom: 1rem;
