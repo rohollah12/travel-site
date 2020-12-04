@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rohollah12/travel-site#readme",
   "dependencies": {
+    "lazysizes": "^5.2.2",
     "loadash": "^1.0.0",
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
