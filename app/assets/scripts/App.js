@@ -5,6 +5,16 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader"
 
 
+// React Related Code Goes Here
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Imoport React components that we created
+import MyAmazingComponent from './modules/MyAmazingComponent';
+
+
+ReactDOM.render(<MyAmazingComponent />, document.querySelector("#my-react-example"));
+
 new StickyHeader();
 new MobileMenu();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
